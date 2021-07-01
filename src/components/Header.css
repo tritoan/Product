@@ -1,0 +1,54 @@
+.header{
+    background-color: rgb(39, 38, 38);
+    display: flex;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header_logo{
+    width: 100px;
+    margin: 20px 0;
+    margin-top: 18px;
+    object-fit: contain;
+}
+.header_search{
+    display: flex;
+    flex: 1;
+}
+.header_searchInput{
+    height: 12px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    width: 100%;
+}
+.hearder_searchIcon{
+    padding: 5px;
+    margin: 10px;
+    /* margin-left: 5px; */
+    height: 22px !important;
+    background-color: #cd904d;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hearder_link{
+    color: white;
+    text-decoration: none;
+}
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header_optionLine1{
+    padding: 5px;
+    font-size: 10px;
+}
+.header_optionLine2{
+    font-size: 12px;
+    font-weight: 800;
+}

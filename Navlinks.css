@@ -1,0 +1,26 @@
+.navlinks{
+    background-color: cadetblue;
+    height: 39px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600 ;
+}
+.navlinks_outer{
+    width: 70%;
+    margin: auto;
+    padding: 6px;
+    
+
+}
+.navlinks_outer a{
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.navlinks_outer a:hover{
+    border: 1px solid #fff;
+    border-radius: 10px;
+}

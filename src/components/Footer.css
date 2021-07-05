@@ -1,0 +1,19 @@
+.footer{
+    background-color: cadetblue;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    min-height: 200px;
+}
+.about_product{
+    margin-left: 25px;
+    display: contents;
+    text-align: center;
+}
+.contact{
+   margin-left: 500px;
+   
+   
+}

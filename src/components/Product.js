@@ -1,18 +1,17 @@
+import { ImageAspectRatio } from '@material-ui/icons';
 import React from 'react';
 import './Product.css'
 import { useStateValue } from './StateProvider';
 
-
-
-function Product({id,title,image,price,rating}){
+function Product({id,title,image,price,rating}) {
     const[{basket}, dispatch] = useStateValue()
-    const addToBasket = () =>{
-        dispatchEvent({
+    const addToBasket = () => {
+        dispatch({
             type: 'ADD_TO_BASKET',
             item: {
                 id: id,
                 title: title,
-                image: image,
+                image: Image,
                 price: price,
                 rating: rating
             }
@@ -39,10 +38,10 @@ function Product({id,title,image,price,rating}){
                        
                 </div>
             <img src={image} alt="" />
-            <button onClick={addToBasket}>Add to Basket</button>
+            <button onClick={addToBasket}>Thêm Vào Giỏ Hàng</button>
             </div>
         </div>
     );
-};
+}
 
 export default Product;

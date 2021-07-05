@@ -6,8 +6,8 @@ function Checkout() {
     return (
         <div className="checkout">
             <div className="checkout_lefe">
-                <h2 className="checkout_title">Your shopping basket is empty.</h2>
-                <p>You have no items in your basket. Buy one</p>
+                <h2 className="checkout_title">Cửa hàng đang kiểm tra giỏ hàng</h2>
+                <p>Bạn có 1 sản phẩm trong giỏ hàng.</p>
             </div>
             <div className="checkout_right ">
                 <Subtotal />
